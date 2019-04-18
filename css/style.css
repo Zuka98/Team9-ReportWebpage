@@ -1330,3 +1330,7 @@ input:-webkit-autofill:focus {
 .form-double .box.last {
     float: right;
 }
+
+p.relatedapps {
+    font-size: 14px;
+}

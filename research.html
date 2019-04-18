@@ -103,25 +103,25 @@
               <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <img src="images/mentalhealthapp.jpg" style="height: 60px; width: 60px;">
                 <h3>What's Up?</h3>
-                <p>What's Up gives the user an insight into their thinking patterns through a diary using two different therapy methods. It also provides information about keeping relaxed through breathing techniques, quotes for inspiration and a discussion forum.</p>
+                <p class="relatedapps">What's Up gives the user an insight into their thinking patterns through a diary using two different therapy methods. It also provides information about keeping relaxed through breathing techniques, quotes for inspiration and a discussion forum.</p>
               </div>
               <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                   <img src="images/mp.jpg" style="height: 60px; width: 60px;">
 
                 <h3>Moodpath</h3>
-                <p>Moodpath is designed a "pre-program" for a professional consultation. Through a 2 week program where the user answers some questions 3 times a day, the app produces an assessment to be brought to a consultation.</p>
+                <p class="relatedapps">Moodpath is designed a "pre-program" for a professional consultation. Through a 2 week program where the user answers some questions 3 times a day, the app produces an assessment to be brought to a consultation.</p>
               </div>
               <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                   <img src="images/moodpath.png" style="height: 60px; width: 60px;">
                 <h3>WellMind</h3>
-                <p>This is an NHS app that gets users to track their emotions and feelings, set goals to try to complete and reminders to work towards them. It also provides useful information, audio tracks for relation and phone numbers to contact within the NHS and out for help.</p>
+                <p class="relatedapps">This is an NHS app that gets users to track their emotions and feelings, set goals to try to complete and reminders to work towards them. It also provides useful information, audio tracks for relation and phone numbers to contact within the NHS and out for help.</p>
               </div>
 
               <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
 
                 <img src="images/woebot.png" style="height: 60px; width: 60px;">
                 <h3>Woebot</h3>
-                <p>Woebot is a chatbot that mimics the experience of talking to a therapist.
+                <p class="relatedapps">Woebot is a chatbot that mimics the experience of talking to a therapist.
                   By using CBT-style feedback and mood tracking, the AI monitors the users' emotions and mood and offers techniques and tips based on the conversation.</p>
               </div>
             </div>
@@ -134,10 +134,13 @@
         <div class="services">
           <div class="container">
             <div class="text-center">
+                <div class="space-60"></div>
                <h2>Difficulties encountered</h2>
               <div class="col-md-10 col-md-offset-1">
                 <p>The biggest problem we encountered was moving the app from Android to iOS. This was primarly due to two reasons. Firstly, the original design being coded without consideration of cross platform development, which meant a complete rewrite of code would have been necessary to redevelop the application (in a very limited timeframe). Secondly, iOS has limited number of services that are allowed to run in the background. This made tracking data in realtime difficult, which is a vital element of the app. While this difficulty can probably be overcome by an experienced iOS developer, it has become a difficulty we are not able to overcome with the timeframe, and as such have decided to abandon the idea of an iOS app in this development cycle.</p>
               </div>
+              <div class="space-60"></div>
+
             </div>
           </div>
         </div>
@@ -154,7 +157,7 @@
             <div class="col-xs-12">
                 <div class="page-title text-center">
                     <h5 class="title">Research</h5>
-                    <h3 class="dark-color">Research Topics</h3>
+                    <h3 class="dark-color">FAQ</h3>
                     <div class="space-60"></div>
                 </div>
             </div>
@@ -162,15 +165,48 @@
         <div class="row">
             <div class="col-xs-12 col-sm-6">
                 <div class="toggole-boxs">
-                    <h3>Natural Language Processing (NLP)</h3>
+                    <h3>Is my data secure?</h3>
                     <div>
-                        <p>Natural Language Processing is a subfield of artificial intelligence focusing on the analysis and processing of human or natural languages. This includes detecting usage of particular words, phrases and sentence structures to name a few. Sentiment analysis was the most relevant and appropriate method to use for our purposes, which breaks down sentences into sentiments and classifies their type based on their location in a sentence. This was to be used for analysing a diary feature as part of the application to determine a person’s mental well-being based on their writing style. It was, however, abandoned and as such this research was not used.</p>
+                        <p>Yes! All wellbeing score predictions are done in app and are only shared with your explicit permission to either your chosen carer or anonymously to an NHS nationwide database.</p>
                     </div>
-                    <h3>Data Randomisation for Anonymity</h3>
+                    <h3>Can GP's access my data without my permission?</h3>
                     <div>
-                        <p>Due to GDPR regulations, we could not allow any one particular person to be uniquely identifiable with information that is meant to be anonymous. As such, our method of randomisation allowed for anonymity while maintaining strong data integrity. 70% of all data is accurate, whereas 30% has been randomised to ensure that no one particular data subject can be identified and attributed to the queried score, even if they are the only individual in the identified postcode.</p>
+                        <p>No, your GP can only get your score predictions if you choose to share your score with them.</p>
                     </div>
-                    <h3>5 Ways to Wellbeing</h3>
+                    <h3>Why do GP's want to know about my wellbeing?</h3>
+                    <div>
+                        <p>For a GP to properly understand someone's condition, they need to consider how their day to day activities may affect them. It would be time consuming and possibly unreliable to depend solely on a line of questioning to get the full picture, so this application would help to cut consultation time and give a standardised and easy to understand breakdown of patient wellbeing.</p>
+                    </div>
+                    <h3>What is anonymous data sharing and how is it done?</h3>
+                    <div>
+                        <p>Your wellbeing scores can be shared to a nationwide database based on your postcode area (the first part of your postcode). This is done without sending any uniquely identifiable information (e.g. names, date of birth). Additionally, a portion of the data in the database is randomised to ensure you cannot be uniquely identified or associated with a score in your postcode area.</p>
+                    </div>
+                    <h3>Is this score actually relevant?</h3>
+                    <div>
+                        <p>This score will help you to better understand how your own lifestyle and activities affect you and how you may be able to positively change for your own mental and personal wellbeing. On a larger scale, this score allows the NHS to properly understand population health and allocate resources to higher risk or need areas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="space-20 hidden visible-xs"></div>
+                <div class="toggole-boxs">
+                    <h3>Is my information shared with 3rd parties?</h3>
+                    <div>
+                        <p>No. Your data is either shared with your GP or other nominated carer or anonymously with the NHS. We will never share your data with any 3rd parties.</p>
+                    </div>
+                    <h3>If I delete the application, will the collected data be erased?</h3>
+                    <div>
+                        <p>Any existing data you have shared either to your GP or the nationwide database will remain there, but any locally stored data will be erased if you uninstall the application.</p>
+                    </div>
+                    <h3>What if I don't agree with the prediction scores?</h3>
+                    <div>
+                        <p>You can dispute the scores predicted by providing feedback on your scores when choosing to share your data. This will help us to improve our prediction model and help us to provide more accurate insight and information to provide better care for you and other users in the future.</p>
+                    </div>
+                    <h3>How is my mental and physical health related?</h3>
+                    <div>
+                        <p>Mental and physical health are closely linked in many ways. For instance, your diet and activeness may affect your mood and general health. If your mental health is poor, you may lose interest in your hobbies or lose your appetite, which can affect your physical wellbeing. To learn more about this, <a href="https://www.mentalhealth.org.uk/a-to-z/p/physical-health-and-mental-health">click here</a> for a well written, informative article by the <a href="https://www.mentalhealth.org.uk">Mental Health Foundation</a>.</p>
+                    </div>
+                    <h3>What are the 5 Ways to Wellbeing?</h3>
                     <div>
                         <p>The 5 Ways to Wellbeing is an NHS approved framework for gauging a person's mental wellbeing. The 5 ways are</p>
                         <ul>
@@ -180,27 +216,6 @@
                           <li>Give to Others - How charitable you are, relating to a sense of community</li>
                           <li>Be Mindful - How aware you are of your surroundings, including your thoughts and feelings</li>
                         </ul>
-                    </div>
-                    <h3>Bayes' Theorem</h3>
-                    <div>
-                        <p>Bayes' theorem is a statistical theorem that describes probabilities given that a previous event has occured. Bayes' theorem is described using conditional probability and uses the probabilities of previous events that have occured to predict the probability of another event occuring. This is particularly useful in predicting a wellbeing score given that the user can report an error in prediction, either positive or negative. Using the theorem, it can take in user feedback and determine the likely accurate score for the user and population.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="space-20 hidden visible-xs"></div>
-                <div class="toggole-boxs">
-                    <h3>Machine Learning</h3>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                    </div>
-                    <h3>Whole networked web system and visualisation</h3>
-                    <div>
-                        <p>We have developed a visualisation system that allows the visualisation of any set of data stored on the cloud based on postcode area in the United Kingdom. While it was designed for use in the UK, the way we designed the framework should allow it to be repurposed for use in any country and region.</p>
-                    </div>
-                    <h3>Background processes in Android and iOS</h3>
-                    <div>
-                        <p>In our research, we found that iOS does not allow applications to run background processes for a sufficient amount of time for the WellWellWell application to be practically deployed on the operating system and as such, have decided to only develop the application on Android. Additionally, iOS does not allow applications to query application usage, which is necessary for tracking the number of minutes on call, texts, etc. The Android application uses the pedometer and queries application usage for data collection.</p>
                     </div>
                     </div>
                 </div>

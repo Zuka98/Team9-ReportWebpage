@@ -64,7 +64,11 @@
             }
         }
     });
-    $(".toggole-boxs").accordion();
+    $(".toggole-boxs").accordion({
+        heightStyle: "content",
+        collapsible: "true",
+        active: "false"
+    });
     /*---------------------------
     MICHIMP INTEGRATION
     -----------------------------*/
