@@ -51,7 +51,6 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="requirements.html">Requirements</a></li>
                   <li><a href="research.html">Research</a></li>
-                  <li><a href="hci.html">HCI</a></li>
                   <li><a href="design.html">Design</a></li>
                   <li><a href="testing.html">Testing</a></li>
                   <li class="active"><a href="evaluation.html">Evaluation</a></li>
@@ -72,18 +71,88 @@
                     <h1 class="wow fadeInUp" data-wow-delay="0.4s">Evaluation</h1>
                     <div class="space-20"></div>
                     <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
                     </div>
                     <div class="space-80 hidden-xs"></div>
                     <div class="space-80 hidden-xs"></div>
-                    <div class="space-80 hidden-xs"></div>
-                    <div class="space-80 hidden-xs"></div>
-
             </div>
         </div>
     </header>
 
+    <section class="feature-area section-padding-top" id="features_page">
+        <div class="container">
+            <div class="row">
+                <h3>MoSCoW Requirements</h3>
+            </div>
+                    <img class="center" src="images/moscow.png" alt="Feature Photo">
+            </div>
+                    <div class="space-60"></div>
+    </section>
 
+    <section class="video-area section-padding-top" id="video-area">
+        <div class="container">
+            <div class="row">
+                <h3>Individual Contribution</h3>
+            </div>
+                    <img class="center" src="images/individualcontribution.png" alt="Feature Photo">
+            </div>
+    </section>
+
+<section id="questions_page" class="questions-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-title text-center">
+                    <h3 class="dark-color">Critical Evaluation of the Project</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <div class="toggole-boxs">
+                    <h3>UI/UX</h3>
+                    <div>
+                        <p>UI: The interface was designed with the user in mind from the start. We conducted a survey and worked out what the users would like to see in terms of colour and layout. Overall, feedback on UI has been good from testers.</p>
+                        <p>UX: The application was designed to be non-intrusive. All processes occur in the background and does not require the user to actively engage the application to do its work. The only times the user is required to take action is when being asked for feedback on their predicted score and when sharing their data with their trusted carer. Anonymous data sharing is done automatically if the user gives their permission.</p>
+                    </div>
+                    <h3>Functionality</h3>
+                    <div>
+                        <p>The application's primary objective is to provide the user with a predicted wellbeing score. To do so, it will fetch the phone's usage statistics for certain other applications, such as the Messaging or Camera app. It does all calculations and predictions locally, hence it does not require internet connection. It performs its primary objective well and does not have many secondary tasks to focus on.</p>
+                    </div>
+                    <h3>Stability</h3>
+                    <div>
+                        <p>The app has been vigorously tested with written automatic tests. The web visualisation app has also been tested using Load Impact testing and has worked efficiently even on full scale. The app has proven to be stable in all tested environments.</p>
+                    </div>
+                    <h3>Efficiency</h3>
+                    <div>
+                        <p>The app collects data over the span of a week and generates a predicted score at the end of the week. As the prediction takes place in app, it occurs very quickly. If the user chooses to provide feedback, it processes the feedback immediately without needing to send or receive any additional data. The web visualisation app has over 2900 data pieces to handle, however using a method whereby we partition the data into two levels, the average number of queries drops down to around 30. This makes loading the map extremely quick.</p>
+                    </div>
+                    <h3>Compatibility</h3>
+                    <div>
+                        <p>Having been tested on more than 50 devices ranging from the Android version 4.1 Jelly Bean up to the most recent 9.0 Pie, Google Statistics has deduced that the application is compatible with 97% of all Android devices used in the UK.</p>
+                    </div>
+                    <h3>Maintainability</h3>
+                    <div>
+                        <p>The source code is well documented and has been cleaned up since the original author created it. Additionally, the new visualisation web app has been meticulously documented and is open source.</p>
+                    </div>
+                    <h3>Project Management</h3>
+                    <div>
+                        <p>The project management has been good, with all but one MoSCoW requirement being met. The sole requirement that was not met was creating a similar application on iOS, but this was found to be impossible as iOS does not give permissions to applications to access usage data of other applications, which is a vital aspect of the WellWellWell app.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="questions_page" class="questions-area section-padding">
+    <div class="container">
+        <div class="row">
+          <h3>Future work</h3>
+          <p>If given an additional 6 months, the machine learning model could most likely be better improved against the feedback of testers as we could get more data. A huge limitation of this project was the time constraint and lack of available data. Considering this project was largely a niche, there was little to no available data for it and most data used to train the machine learning model was synthetic. Given more time, we could better train the model using real data from the 5000 users the application will be tested on.</p>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <footer class="footer-area" id="contact_page">
         <div class="footer-bottom">
@@ -95,8 +164,6 @@
         </div>
     </footer>
     <!-- Footer-End -->
-
-
 
 <!--Vendor-JS-->
 <script src="js/vendor/jquery-1.12.4.min.js"></script>

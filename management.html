@@ -51,7 +51,6 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="requirements.html">Requirements</a></li>
                   <li><a href="research.html">Research</a></li>
-                  <li><a href="hci.html">HCI</a></li>
                   <li><a href="design.html">Design</a></li>
                   <li><a href="testing.html">Testing</a></li>
                   <li><a href="evaluation.html">Evaluation</a></li>
@@ -72,46 +71,267 @@
 
                     <h1 class="wow fadeInUp" data-wow-delay="0.4s">Management</h1>
                     <div class="space-20"></div>
-                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
-                    </div>
-                    <div class="space-80 hidden-xs"></div>
-                    <div class="space-80 hidden-xs"></div>
-                    <div class="space-80 hidden-xs"></div>
-                    <div class="space-80 hidden-xs"></div>
+                        <div class="space-80 hidden-xs"></div>
 
             </div>
         </div>
     </header>
 
+<section id="questions_page" class="questions-area section-padding">
+    <div class="container">
+        <div class="row">
+          <h3>Legal Issues</h3>
+          <h4>Potential Liabilities</h4>
+          <ul>
+            <li>
+                <p>Unauthorised access to data subject’s data through direct sharing of data from the application, e.g. by data subject’s own error or a bug that may trigger a data share without consent</p>
+              </li>
+            <li>
+              <p>Data subject may be uniquely identified if they are the sole user of the application within their postcode area</p>
+            </li>
+            <li>
+              <p>Android SDK is subject to US export laws and regulations which could have imposed liabilities if application built using that SDK was shipped to a region where the USA restricts or regulates the export of intellectual property. However, our application is created for NHS digital which only intends to use it for people living in the United Kingdom, therefore this application should not be the subject to breaching above mentioned regulations</p>
+            </li>
+            <li>
+              <p>In the case of manipulating user data in an unanticipated way, unauthorized usage or access to any information will raise liabilities to European Parliament and Council of the European Union, Google and other parties whose data was stored and used by the application. However, this is not a possibility for this project as score prediction using machine learning model happens locally on the device and not on the cloud. Every single piece of recorded information never leaves user's phone. Only limited, anonymous and randomized data is shared with the real-time nationwide database if and only if the user disables privacy filter. This implies that by doing so user accepts the terms and conditions of the application about which he/she gets full, symmetric information and these terms doesn’t</p>
+            </li>
+        </ul>
+        <br />
+          <h4>Intellectual Property</h4>
+          <ul>
+            <li>
+                <p>This project is developed for Android devices; therefore, Android Studio was chosen as a development IDE, which is available for open source use according to Android Software Development Kit License Agreement. Regarding the use of other Android libraries and API's, it is restricted to use data that might be protected by intellectual property rights, however, in this project, no such information or data was imported and used.</p>
+              </li>
+            <li>
+              <p>The types of intellectual properties that protect the app are copyrights and trademarks. As the app would be deployed as an NHS app, the NHS logo would be used, which is both trademarked and copyrighted. Additionally, the logo and name of the app, WellWellWell, will need to be trademarked to prevent unauthorised usage of the name. It is unclear if the “5 Ways to Well-being” is copyrighted or trademarked. It was produced by Foresight, the Government Ofﬁce for Science, and as such is likely trademarked. The NHS is authorised to use the name and methods. </p>
+            </li>
+        </ul>
+        <br />
+          <h4>Privacy</h4>
+          <ul>
+            <li>
+                <p>One important addition to this application we implemented was the inclusion of a Terms and Conditions and a Data Protection Statement that is shown to the user upon initial installation and setup that the user is required to agree to prior to using the application. The application will generate a predicted “well-being score”, which is initially only shared with the user. The purpose of this application is to provide GPs and healthcare professionals nationwide to better understand individuals and the nation as a whole better, so a fundamental aspect of the application involves data sharing with these parties. We have implemented “Button A” and “Button B”, as described in the Liability section above. The information collected and shared using “Button A” include the data subject’s name, postcode (location), well-being sore and the breakdown of their well-being data in a visualised format. The information shared using “Button B” only include the data subject’s postcode and well-being score. There is a concern about the anonymity of data subjects on the nationwide database as they may be uniquely identiﬁed using their postcode. We were asked to combat this issue by randomising 30% of the data, i.e. there is a 30% chance that the well-being score saved on the nationwide database is a randomly generated number so no one particular datapoint can be 100% accurate and attributable to any one data subject.</p>
+              </li>
+        </ul>
+        </div>
+      </div>
+    </section>
 
 
 
-
-    <!-- Download-Area -->
-    <section>
-        <div class="download-area overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 hidden-sm">
-                        <figure class="mobile-image">
-                            <img src="images/download-image.png" alt="">
-                        </figure>
+  <section class="gallery-area section-padding" id="gallery_page">
+        <div class="container-fluid">
+          <h2>User Guide</h2>
+          <br />
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc1.png" alt=""></div>
+                        <div class="item"><img src="images/sc2.png" alt=""></div>
+                        <div class="item"><img src="images/sc3.png" alt=""></div>
+                        <div class="item"><img src="images/sc4.png" alt=""></div>
                     </div>
-                    <div class="col-xs-12 col-md-6 section-padding">
-                        <h3 class="white-color">Download The App</h3>
-                        <div class="space-20"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam possimus eaque magnam eum praesentium unde.</p>
-                        <div class="space-60"></div>
-                        <a href="#" class="bttn-white sq"><img src="images/apple-icon.png" alt="apple icon"> Apple Store</a>
-                        <a href="#" class="bttn-white sq"><img src="images/play-store-icon.png" alt="Play Store Icon"> Play Store</a>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Registration</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Introductory slides</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p> The user will scroll through these pages and agree to the Privacy Policy statement.<br>
+                         </p>
+                    </div>
+                    <div class="space-50"></div>
+                 
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-lg-5 text-right">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Registration</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Permissions</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>The user must grant the app permissions in order to use it. These include sending and viewing SMS, viewing call logs and accessing phone storage (to store data from the app).</p>
+                    </div>
+                    <div class="space-50"></div>
+                </div>
+                  <div class="col-xs-10 col-sm-6 col-md-offset-1 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc5.png" alt=""></div>
+                    </div>
+                </div>
+             <!--    <div class="col-xs-10 col-sm-4 col-md-offset-1">
+                        <div class="userguideitem"><img src="images/sc1.png" alt=""></div>
+                </div> -->
+            </div>
+        </div>
+        <hr />
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc6.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Registration</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Personal details</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>The app does not take any details other than the user's reference numbers and the first half of their postcode.<br>
+                         </p>
+                    </div>
+                    <div class="space-50"></div>
+                 
+                </div>
+            </div>
+        </div>
+     <hr />
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-lg-5 text-right">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Main page</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Start tracking</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>To begin using the app, the user must press the "Start tracking" button</p>
+                    </div>
+                    <div class="space-50"></div>
+                </div>
+                  <div class="col-xs-10 col-sm-6 col-md-offset-1 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item-still"><img src="images/sc7.png" alt=""></div>
+                    </div>
+                </div>
+             <!--    <div class="col-xs-10 col-sm-4 col-md-offset-1">
+                        <div class="userguideitem"><img src="images/sc1.png" alt=""></div>
+                </div> -->
+            </div>
+        </div>
+        <hr />
+            <div class="row">
+                  <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc8.png" alt=""></div>
+                        <div class="item"><img src="images/sc9.png" alt=""></div>
+                        <div class="item"><img src="images/sc10.png" alt=""></div>
+                        <div class="item"><img src="images/sc11.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Main page</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Predictions</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>The app produces a prediction at the end of every week. The user can then choose to accept that the prediction is accurate or dispute and send feedback as to what they believe the actual score is.<br>
+                         </p>
+                    </div>
+                    <div class="space-50"></div>
+                 
+                </div>
+            </div>
+        </div>
+          <hr />
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-lg-5 text-right">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">User statistics</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Statistics</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>The "My Week So Far" and "Stats History" page hold information previously recorded on the application visualised in a simple manner for the user.</p>
+                    </div>
+                    <div class="space-50"></div>
+                </div>
+                  <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc12.png" alt=""></div>
+                        <div class="item"><img src="images/sc13.png" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
-        <!-- Download-Area-End -->
+        <hr />
+            <div class="row">
+                  <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc14.png" alt=""></div>
+                        <div class="item"><img src="images/sc15.png" alt=""></div>
+                        <div class="item"><img src="images/sc16.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Share data</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Sharing data as PDF or Text file</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>The data generated by the application can be exported or shared as a PDF or text file. The visualised data in PDF format is pictured.<br>
+                         </p>
+                    </div>
+                    <div class="space-50"></div>
+                 
+                </div>
+            </div>
+        </div>
+       <hr />
+            <div class="row">
 
+                <div class="col-xs-12 col-sm-12 col-lg-5 text-right">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Edit details</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Altering details</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>The user can later edit the details provided at registration in the settings page. Thes are the reference numbers and their postcode.<br>
+                         </p>
+                    </div>
+                    <div class="space-50"></div>
+                 
+                </div>
+                <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/sc6.png" alt=""></div>
+                        <div class="item"><img src="images/sc18.png" alt=""></div>
+                        <div class="item"><img src="images/sc19.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <hr />
+     <div class="text-center">
+      <br />
+         <a href="#" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-download"></i>Download App</a>
+  </div>
+   </section>
+
+    <!-- Gallery-Area-End -->
     <!-- Footer -->
     <footer class="footer-area" id="contact_page">
         <div class="footer-bottom">

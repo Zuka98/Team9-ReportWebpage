@@ -666,6 +666,12 @@ input:-webkit-autofill:focus {
     border-radius: 2px;
 }
 
+.gallery-slide .item-still {
+    margin: 58px 17px 70px 15px;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
 .gallery-slide .owl-controls {
     position: static;
     text-align: right;
@@ -1333,4 +1339,8 @@ input:-webkit-autofill:focus {
 
 p.relatedapps {
     font-size: 14px;
+}
+
+.userguideitem {
+    margin: 58px 17px 70px 15px;
 }

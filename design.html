@@ -51,7 +51,6 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="requirements.html">Requirements</a></li>
                   <li><a href="research.html">Research</a></li>
-                  <li><a href="hci.html">HCI</a></li>
                   <li class="active"><a href="design.html">Design</a></li>
                   <li><a href="testing.html">Testing</a></li>
                   <li><a href="evaluation.html">Evaluation</a></li>
@@ -67,15 +66,11 @@
     <header class="home-area overlay" id="home_page">
         <div class="container">
             <div class="row">
-                  <div class="space-20"></div>
-
                     <h1 class="wow fadeInUp" data-wow-delay="0.4s">Design</h1>
                     <div class="space-20"></div>
                     <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+                        <p></p>
                     </div>
-                    <div class="space-80 hidden-xs"></div>
-                    <div class="space-80 hidden-xs"></div>
                     <div class="space-80 hidden-xs"></div>
                     <div class="space-80 hidden-xs"></div>
 
@@ -86,51 +81,36 @@
 
 
      <!-- How-To-Use -->
-     <section class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="page-title">
-                            <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Our features</h5>
-                            <div class="space-10"></div>
-                            <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Aour Approach of Design is Prety Simple and Clear</h3>
-                        </div>
-                        <div class="space-20"></div>
-                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
-                        <div class="space-60 hidden visible-xs"></div>
-                        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-clock"></i>
-                            </div>
-                            <h4>Easy Notifications</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-laptop-phone"></i>
-                            </div>
-                            <h4>Fully Responsive</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-cog"></i>
-                            </div>
-                            <h4>Editable Layout</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                        </div>
-                    </div>
+ <!-- Feature-Area -->
+    <section class="feature-area section-padding-top" id="features_page">
+        <div class="container">
+            <div class="row text-center">
+                <h3>System Architecture Diagram</h3>
+            </div>
+            <div class="row text-center">
+                <div class="hidden-xs hidden-sm">
+                    <figure class="center">
+                        <img src="images/systemdiagram.png" alt="Feature Photo">
+                    </figure>
                 </div>
             </div>
-        </section>
+            <br/>
+            <div class="row">
+                <h4>Components (left to right, top to bottom)</h4>
+                <ol>
+                    <li>Share as PDF: User can share their data with a trusted carer as a PDF file</li>
+                    <li>Share as text file: User can share their data with a trusted carer as a text file</li>
+                    <li>Anonymous data sharing: User's data is shared to the nationwide database anonymously</li>
+                    <li>Continuous Deployment: The web app is continously deployed from GitHub and communicates with the Azure MySQL server</li>
+                    <li>GeoJSON Objects: Postcode areas are stored as GeoJSON objects in 2 levels (2nd level stored as properties) to reduce the number of queries required</li>
+                </ol>
+            </div>
+        </div>
+                    <div class="space-60"></div>
+                    <div class="space-60"></div>
+
+
+    </section>
         <!-- How-To-Use-End -->
 
     <!-- Gallery-Area -->
@@ -165,7 +145,7 @@
                     <div class="page-title">
                         <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Screenshots</h5>
                         <div class="space-10"></div>
-                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Sample photos from our applicaiton</h3>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Sample photos from our application</h3>
                     </div>
                     <div class="space-20"></div>
                     <div class="desc wow fadeInUp" data-wow-delay="0.6s">
@@ -181,37 +161,38 @@
     </section>
     <!-- Gallery-Area-End -->
 
+    <section class="section-margin">
+      <div class="container">
+        <div class="section-intro pb-85px text-center section-padding">
+          <h2 class="section-intro__title">Design Patterns</h2>
+            <p class="section-intro__subtitle">Model view controller for Android applications</p>
+            <p class="section-intro__subtitle">Asynchronous callbacks on Get and Post requests on the website</p>
+            <p class="section-intro__subtitle">Adapter classes for processing different types of data</p>
+            <p class="section-intro__subtitle">Builder classes for anonymised data</p>
+            <p class="section-intro__subtitle">Android application multithreading</p>
+        </div>
 
-     <!-- Progress-Area -->
-     <section class="progress-area gray-bg" id="progress_page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="page-title section-padding">
-                            <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Our Progress</h5>
-                            <div class="space-10"></div>
-                            <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Grat Application Ever</h3>
-                            <div class="space-20"></div>
-                            <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
-                            </div>
-                            <div class="space-50"></div>
-                            <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <figure class="mobile-image">
-                            <img src="images/progress-phone.png" alt="">
-                        </figure>
-                    </div>
+      </div>
+    </section>
+
+ <section class="feature-area section-padding-top" id="features_page">
+        <div class="container">
+            <div class="row text-center">
+                <h3 align="middle">ER Diagram</h3>
+            </div>
+            <div class="row text-center">
+                <div class="hidden-xs hidden-sm">
+                    <figure class="center">
+                        <img src="images/er.png" alt="Feature Photo">
+                    </figure>
                 </div>
             </div>
-        </section>
-        <!-- Progress-Area-End -->
+        
+                    <div class="space-60"></div>
+                    <div class="space-60"></div>
 
-   
 
-
+    </section>
     <!-- Footer -->
     <footer class="footer-area" id="contact_page">
         <div class="footer-bottom">
